@@ -1,0 +1,16 @@
+[project]
+name = "langchain-first"
+version = "0.1.0"
+description = "My first Agentic AI project"
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    "langchain",
+    "langchain-community",
+    "langchain-openai",
+    "langchain-groq",
+    "langchain-google-genai",
+    "python-dotenv",
+    "ipykernel>=7.3.0",
+]
